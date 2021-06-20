@@ -4,7 +4,7 @@ module "vpc" {
     version = "~> 3.0"
  
     network_name = "aaa-network"
-    project_id =  "var.project_id"
+    project_id =  var.project
     routing_mode = "GLOBAL"
 
     subnets = [
