@@ -4,7 +4,7 @@ module "vpc" {
     version = "~> 3.0"
  
     network_name = "gaurav-network"
-    project_id =  {var.project_id}
+    project_id =  "var.project_id"
     routing_mode = "GLOBAL"
 
     subnets = [
